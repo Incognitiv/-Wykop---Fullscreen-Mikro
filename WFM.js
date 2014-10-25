@@ -19,9 +19,8 @@ var action          = "click";
 var bar_title       = "ChangeBar";
 var click_type      = "a";
 var wrap_size       = "4px";
-var optional        = "href = ''";
 
-var main            = $('<li><' + click_type /* + optional + */ + ' id=\'' + bar_title + '\' title=\'' + title + '\'>' + 
+var main            = $('<li><' + click_type + ' id=\'' + bar_title + '\' title=\'' + title + '\'>' + 
                         "<svg xmlns='http://www.w3.org/2000/svg' width = '22' height = '12'>" +
                         "<g transform = 'scale(0.13, 0.134)'>" +
                         "<rect id='svg_1' ry='5' rx='5' height='25' width='140' y='5' x='5' stroke-width='2' stroke='#000000' fill='#ffffff'/>" +

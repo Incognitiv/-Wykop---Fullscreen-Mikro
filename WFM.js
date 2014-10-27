@@ -8,6 +8,8 @@
 // @include         http://www.wykop.pl/wpis/*
 // @include         http://www.wykop.pl/moj/*
 // @include         http://www.wykop.pl/ludzie/*
+// @include         http://www.wykop.pl/wiadomosc-prywatna/*
+// @updateURL       https://openuserjs.org/install/The_Shiny/Wykop_-_Fullscreen_Mikro.user.js
 // @grant           none
 // @license         BSD
 // ==/UserScript==
@@ -30,8 +32,8 @@ var main            = $('<li><' + click_type + ' id=\'' + bar_title + '\' title=
                         "<rect id='svg_6' ry='5' rx='5' height='25' width='25' y='35' x='145' stroke-width='2' stroke='#000000' fill='#ffffff'/>" +
                         "<rect id='svg_7' ry='5' rx='5' height='25' width='25' y='65' x='145' stroke-width='2' stroke='#000000' fill='#ffffff'/> " +
                         "</g>" +
-                        "</svg>" + 
-                    "</" + click_type + '></li>').insertBefore($('#openNaturalSearch').parent());
+                        "</svg>" +
+                        "</" + click_type + '></li>').insertBefore($('#openNaturalSearch').parent());
 
 var bar             = $(".grid-right");
 var grid            = $(".grid-main");
